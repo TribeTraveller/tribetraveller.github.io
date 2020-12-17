@@ -1,0 +1,95 @@
+html, body, * {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: url(./47447904842_7177fa0dff_4k.jpg)  no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 15vh;
+    color: #ffffff;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+.navbar-brand {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 42px;
+}
+h1 {
+    font-size: 58px;
+    font-weight: lighter;
+    text-shadow: 10px 10px 40px #000000;
+}
+h3 {
+    margin-top: 3vh;
+    font-size: 32px;
+    text-shadow: 10px 10px 40px #000000;
+}
+h3 .custom {
+    font-family: 'Pacifico', sans-serif;
+}
+.timings {
+    margin: 0 auto;
+    margin-top: 6vh;
+    width: 50%;
+    height: 300px;
+    padding: 0;
+}
+.images-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.images-wrapper .images {
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.images-wrapper .images img {
+    height: 240px;
+    width: 360px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    border-radius: 10px!important;
+}
+.images-wrapper .images img:hover {
+    filter: grayscale(0%);
+}
+footer {
+    text-shadow: 10px 10px 40px #000000;
+}
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 32px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .timings {
+        width: 100%;
+    }
+    .images-wrapper {
+        margin-top: -20vh;
+    }
+    .images-wrapper .images img {
+        height: 120px;
+        width: 180px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1112px) {
+    .images-wrapper {
+        margin-top: -10vh;
+    }
+    .images-wrapper .images img {
+        height: 200px;
+        width: 280px;
+    }
+}
