@@ -31,13 +31,7 @@
                 <a class="navbar-brand text-light" href="#">Tribe Traveller</a>
                 <ul class="nav nav-right">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#combo-form" data-toggle="modal" data-target="#combo-form" title="Register">
-                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 32 32" >
-                                <g fill="#ffc107" transform="scale(0.03125 0.03125)">
-                                    <path d="M512 0c-282.752 0-512 229.248-512 512s229.248 512 512 512 512-229.248 512-512-229.248-512-512-512zM512 128c166.624 0 307.36 107.328 360.512 256h-721.024c53.152-148.672 193.888-256 360.512-256zM512 576c-35.36 0-64-28.64-64-64s28.64-64 64-64 64 28.64 64 64-28.64 64-64 64zM128 512c174.88 0 316.512 168.512 319.488 377.504-180.992-31.008-319.488-187.872-319.488-377.504zM576.512 889.504c2.976-208.992 144.608-377.504 319.488-377.504 0 189.632-138.496 346.496-319.488 377.504z"/>
-                                </g>
-                            </svg>
-                        </a>
+                        <a class="nav-link btn btn-warning rounded-pill text-uppercase" href="#combo-form" data-toggle="modal" data-target="#combo-form" title="Register">Sign Up</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="https://www.facebook.com/tribetraveller" target="_blank" title="Facebook">
@@ -89,20 +83,18 @@
             <footer class="row-fluid text-center fixed-bottom">
                 <div class="col-sm-12">
                     <p class="d-inline-block">&copy; 2020 Tribe Traveller</p>
-                    <span class="mx-2">|</span>
-                    <a class="text-light" href="#contact-form" data-toggle="modal" data-target="#contact-form" title="Register">Register</a>
-                    <span class="mx-2">|</span>
-                    <a class="text-light" href="#host-form" data-toggle="modal" data-target="#host-form" title="Be a Host">Be a Host</a>
                 </div>
             </footer>
-            <div class="modal fade" id="combo-form" tabindex="-1" aria-hidden="true">
+            <div class="modal fade" data-backdrop="static" data-keyboard="false" id="combo-form" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header d-flex justify-content-between align-items-center">
-                            <nav class="nav nav-pills nav-justified w-100" role="tablist">
-                                <a class="nav-link active" id="pills-contact" data-toggle="pill" href="#contact">Register</a>
-                                <a class="nav-link" id="pills-host" data-toggle="pill" href="#host">Be a Host</a>
-                            </nav>
+                            <div class="w-100 d-flex justify-content-center">
+                                <nav class="nav nav-pills nav-justified w-50" role="tablist">
+                                    <a class="text-uppercase nav-link active" id="pills-contact" data-toggle="pill" href="#contact">Register</a>
+                                    <a class="text-uppercase nav-link" id="pills-host" data-toggle="pill" href="#host">Be a Host</a>
+                                </nav>
+                            </div>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -116,36 +108,6 @@
                                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOwTFx5ivCgY6QZH9yrhVLcVZ1ycCLsFiigAARokkUOu0sFw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="contact-form" tabindex="-1" aria-labelledby="contactUsLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title text-dark" id="contactUsLabel">Register</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body p-0" style="height: 65vh">
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvwwsVGmEFJBREqMt04M5y96P5-8RoGMRdYPntuHfWlXZntA/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="host-form" tabindex="-1" aria-labelledby="hostLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title text-dark" id="hostLabel">Be a Host</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body p-0" style="height: 65vh">
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOwTFx5ivCgY6QZH9yrhVLcVZ1ycCLsFiigAARokkUOu0sFw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                         </div>
                     </div>
                 </div>
