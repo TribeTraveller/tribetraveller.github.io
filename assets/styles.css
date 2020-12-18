@@ -20,6 +20,13 @@ body {
     font-family: 'Pacifico', sans-serif;
     font-size: 42px;
 }
+.nav-pills .nav-link {
+    color: #000000;
+}
+.nav-pills .nav-link.active {
+    background-color: #000000;
+    color: #ffffff;
+}
 h1 {
     font-size: 58px;
     font-weight: lighter;
