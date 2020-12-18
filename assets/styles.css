@@ -11,7 +11,7 @@ body {
     height: 100vh;
     position: relative;
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 10vh;
     color: #ffffff;
     overflow-x: hidden;
     background-color: #000000;
@@ -91,5 +91,24 @@ footer {
     .images-wrapper .images img {
         height: 200px;
         width: 280px;
+    }
+}
+
+@media screen and (max-height: 760px) {
+    body {
+        padding-top: 0;
+    }
+    nav.fixed-top {
+        position: relative!important;
+        display: flex;
+        margin-bottom: 10vh;
+        padding: 20px 0;
+    }
+    footer {
+        position: relative!important;
+        display: block;
+        width: 100%;
+        margin-top: 10vh;
+        padding: 20px 0;
     }
 }
