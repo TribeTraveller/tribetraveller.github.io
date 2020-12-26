@@ -16,13 +16,23 @@ body {
     overflow-x: hidden;
     background-color: #000000;
 }
+.btn:active, .btn:focus {
+    box-shadow: none;
+    outline: none;
+}
 .navbar-brand {
     font-family: 'Pacifico', sans-serif;
     font-size: 42px;
 }
 .modal-header {
     border-bottom: none;
-    padding-bottom: 10px;
+}
+.modal-header h3 {
+    text-shadow: none;
+    margin-top: 10px;
+}
+.modal-header .close {
+    font-size: 36px;
 }
 .modal-body {
     background: #efefef;
@@ -49,12 +59,18 @@ h3 {
 h3 .custom {
     font-family: 'Pacifico', sans-serif;
 }
+.register-buttons .btn-lg {
+    min-width: 300px;
+    font-weight: bold;
+    padding: 1rem;
+}
 .timings {
     margin: 0 auto;
     margin-top: 6vh;
     width: 50%;
     height: 300px;
     padding: 0;
+    display: inline-flex;
 }
 .images-wrapper {
     overflow: hidden;
@@ -91,9 +107,10 @@ footer {
     }
     .timings {
         width: 100%;
+        height: 200px;
     }
     .images-wrapper {
-        margin-top: -20vh;
+        margin-top: 100px;
     }
     .images-wrapper .images img {
         height: 120px;
@@ -118,13 +135,6 @@ footer {
         position: relative!important;
         display: flex;
         margin-bottom: 10vh;
-        padding: 20px 0;
-    }
-    footer {
-        position: relative!important;
-        display: block;
-        width: 100%;
-        margin-top: 10vh;
         padding: 20px 0;
     }
 }
